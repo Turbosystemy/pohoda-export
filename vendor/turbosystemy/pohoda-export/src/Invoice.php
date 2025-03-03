@@ -11,8 +11,10 @@ class Invoice
 {
 	const NS = 'http://www.stormware.cz/schema/version_2/invoice.xsd';
 
-	const INVOICE_TYPE = 'issuedInvoice'; //faktury vydane
-	const CORRECTIVE_TYPE = 'issuedCorrectiveTax'; //opravny danovy doklad
+	//const INVOICE_TYPE = 'issuedInvoice'; //vydaná faktura
+    const INVOICE_TYPE = 'receivedInvoice'; //faktury prijate
+	
+    const CORRECTIVE_TYPE = 'issuedCorrectiveTax'; //opravny danovy doklad
 
 	private $cancel; //cislo stornovaneho dokumentu
 	private $cancelNumber; //ciselna rada pro storno

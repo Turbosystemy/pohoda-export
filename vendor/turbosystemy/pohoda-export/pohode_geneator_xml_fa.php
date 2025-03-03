@@ -16,7 +16,7 @@ $pohoda = new Pohoda\Export('12345678');
 
 try {
     // cislo faktury
-    $invoice = new Pohoda\Invoice(324342);
+    $invoice = new Pohoda\Invoice();
 
     // cena faktury s DPH (po staru) - volitelně
     $invoice->setText('faktura za prace ...');

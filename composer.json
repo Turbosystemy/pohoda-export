@@ -1,12 +1,14 @@
 {
-    "name": "unio/pohoda-export",
+    "name": "export/pohoda",
     "description": "Export do POHODA ucetnictvi",
-    "autoload": {
-        "psr-4": {
-            "Pohoda\\": "src/"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Turbosystemy/pohoda-export.git"
         }
-    },
+    ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=8.1",
+        "turbosystemy/pohoda-export": "dev-master"
     }
 }

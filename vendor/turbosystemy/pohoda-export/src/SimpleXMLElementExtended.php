@@ -21,7 +21,7 @@ class SimpleXMLElementExtended extends \SimpleXMLElement
 	 *
 	 * @return \SimpleXMLElement|SimpleXMLElementExtended
 	 */
-	public function addChild($name, $value = NULL, $namespace = NULL)
+	public function addChild($name, $value = NULL, $namespace = NULL):\SimpleXMLElement
 	{
 		$_value = self::filterUnicodeCharacters((string) $value);
 

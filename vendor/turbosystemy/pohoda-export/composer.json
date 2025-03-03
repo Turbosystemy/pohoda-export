@@ -1,0 +1,12 @@
+{
+    "name": "turbosystemy/pohoda-export",
+    "description": "Export do POHODA ucetnictvi",
+    "autoload": {
+        "psr-4": {
+            "Pohoda\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}

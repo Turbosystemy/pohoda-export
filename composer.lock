@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "97641001ded8ff03cd5adc1707b1e21b",
+    "packages": [
+        {
+            "name": "turbosystemy/pohoda-export",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Turbosystemy/pohoda-export.git",
+                "reference": "40f009693ce7860eb4ea3eea50cd70a1cb84b5bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Turbosystemy/pohoda-export/zipball/40f009693ce7860eb4ea3eea50cd70a1cb84b5bc",
+                "reference": "40f009693ce7860eb4ea3eea50cd70a1cb84b5bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pohoda\\": "src/"
+                }
+            },
+            "description": "Export do POHODA ucetnictvi",
+            "support": {
+                "source": "https://github.com/Turbosystemy/pohoda-export/tree/master"
+            },
+            "time": "2025-02-18T14:25:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "turbosystemy/pohoda-export": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

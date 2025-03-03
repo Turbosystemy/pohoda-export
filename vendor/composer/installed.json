@@ -1,0 +1,39 @@
+{
+    "packages": [
+        {
+            "name": "turbosystemy/pohoda-export",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Turbosystemy/pohoda-export.git",
+                "reference": "40f009693ce7860eb4ea3eea50cd70a1cb84b5bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Turbosystemy/pohoda-export/zipball/40f009693ce7860eb4ea3eea50cd70a1cb84b5bc",
+                "reference": "40f009693ce7860eb4ea3eea50cd70a1cb84b5bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "time": "2025-02-18T14:25:16+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pohoda\\": "src/"
+                }
+            },
+            "description": "Export do POHODA ucetnictvi",
+            "support": {
+                "source": "https://github.com/Turbosystemy/pohoda-export/tree/master"
+            },
+            "install-path": "../turbosystemy/pohoda-export"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

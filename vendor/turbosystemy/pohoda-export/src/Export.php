@@ -91,7 +91,7 @@ class Export
 
 	private function export($exportId, $application, $note = '')
 	{
-		$xmlText = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n
+		$xmlText = "<?xml version=\"1.0\" encoding=\"Windows-1250\"?>\n
 		<dat:dataPack id=\"" . $exportId . "\" ico=\"" . $this->getIco() . "\" 
 		application=\"" . $application . "\" version = \"2.0\" note=\"" . $note . "\" 
 		xmlns:dat=\"http://www.stormware.cz/schema/version_2/data.xsd\" 
